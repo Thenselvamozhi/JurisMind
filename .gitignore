@@ -1,0 +1,47 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Generated machine-learning artifacts (recreate with ml_model/train_model.py)
+data/case_model.pkl
+data/label_encoder.pkl
+
+# Test, coverage, and type-checker outputs
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Packaging/build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

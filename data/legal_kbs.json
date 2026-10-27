@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "intent": "efiling",
+    "keywords": ["efile", "e-file", "efiling", "online filing", "file case online", "electronic filing"],
+    "question": "How do I e-file a case?",
+    "answer": "To e-file a case through the DOJ portal: 1) Register at the eFiling portal with your credentials. 2) Select the case type (Civil/Criminal/Family). 3) Upload required documents in PDF format (max 10MB each). 4) Pay the court fee online via ePay. 5) You will receive a filing confirmation number via email. Track your case using this number on the portal."
+  },
+  {
+    "id": 2,
+    "intent": "efiling",
+    "keywords": ["documents needed", "required documents", "what documents", "filing documents"],
+    "question": "What documents are required for e-filing?",
+    "answer": "Required documents for e-filing: 1) Petition/Complaint (PDF). 2) Proof of Identity (Aadhaar/Passport). 3) Address proof. 4) Supporting evidence documents. 5) Vakalatnama if filing through an advocate. All documents must be self-attested and below 10MB."
+  },
+  {
+    "id": 3,
+    "intent": "epay",
+    "keywords": ["epay", "payment", "court fee", "pay fee", "fee payment", "online payment"],
+    "question": "How do I pay court fees online?",
+    "answer": "Court fees can be paid through the ePay portal: 1) Visit the DOJ ePay portal. 2) Enter your case number or filing reference ID. 3) The system will auto-calculate the applicable fee. 4) Pay via Net Banking, UPI, Debit/Credit Card. 5) Save the payment receipt — it is required for your case hearing. Fee varies by case type: Civil (₹200-₹5000), Criminal (₹50-₹500)."
+  },
+  {
+    "id": 4,
+    "intent": "epay",
+    "keywords": ["fee structure", "how much", "court fee amount", "fee calculation"],
+    "question": "What is the court fee structure?",
+    "answer": "Court fee structure by case type: Civil Suit (up to ₹1 lakh claim) - ₹200. Civil Suit (₹1-10 lakh) - ₹1000. Civil Suit (above ₹10 lakh) - ₹5000. Criminal Complaint - ₹50. Family Court matters - ₹100. Appeals - ₹500. Writ Petitions - ₹500. RTI matters - No fee."
+  },
+  {
+    "id": 5,
+    "intent": "legal_aid",
+    "keywords": ["legal aid", "free lawyer", "poor", "cannot afford", "free legal help", "legal assistance free"],
+    "question": "How can I get free legal aid?",
+    "answer": "Free legal aid is available through: 1) District Legal Services Authority (DLSA) — visit your nearest district court. 2) State Legal Services Authority (SLSA). 3) NALSA (National Legal Services Authority) helpline: 15100. Eligibility: SC/ST communities, women, children, disabled persons, persons with annual income below ₹3 lakh, disaster/violence victims. Apply by submitting Form-1 at DLSA with income certificate."
+  },
+  {
+    "id": 6,
+    "intent": "legal_aid",
+    "keywords": ["nalsa", "slsa", "dlsa", "legal services authority", "legal services"],
+    "question": "What is NALSA and how does it help?",
+    "answer": "NALSA (National Legal Services Authority) is a statutory body under the Legal Services Authorities Act, 1987. It provides: Free legal representation in all courts, Legal advice and counseling, Lok Adalat dispute resolution (faster than courts), Compensation to victims of crime. Contact NALSA at 15100 (toll-free) or visit nalsa.gov.in."
+  },
+  {
+    "id": 7,
+    "intent": "court_info",
+    "keywords": ["court timing", "court hours", "court open", "working hours", "court schedule"],
+    "question": "What are court working hours?",
+    "answer": "District and High Courts generally operate: Monday to Friday, 10:30 AM to 4:30 PM. Lunch break: 1:00 PM to 2:00 PM. Courts are closed on national holidays, Sundays, and court vacations (Summer: May-June, Winter: December). Urgent matters (bail, injunctions) can be heard on holidays by duty judges. Check your specific court's website for exact timings."
+  },
+  {
+    "id": 8,
+    "intent": "court_info",
+    "keywords": ["case status", "track case", "case hearing", "next date", "case update"],
+    "question": "How do I check my case status?",
+    "answer": "To check case status: 1) Visit ecourts.gov.in. 2) Enter your Case Number/CNR Number. 3) You can also check by party name or advocate name. 4) The eCourts app (available on Play Store/App Store) provides real-time updates. 5) SMS alerts: Register your mobile on the eCourts portal to get automatic hearing date reminders."
+  },
+  {
+    "id": 9,
+    "intent": "faq",
+    "keywords": ["fir", "first information report", "file fir", "police complaint", "register fir"],
+    "question": "How do I file an FIR?",
+    "answer": "To file an FIR: 1) Visit the nearest police station in whose jurisdiction the incident occurred. 2) Give a written or oral complaint to the Officer-in-Charge. 3) The officer must register the FIR — refusal is punishable. 4) If police refuse, complain to the SP or file a complaint before a Magistrate under Section 156(3) CrPC. 5) Get a free copy of the FIR. Zero FIR can be filed at any station regardless of jurisdiction."
+  },
+  {
+    "id": 10,
+    "intent": "faq",
+    "keywords": ["bail", "get bail", "bail application", "bail types", "bail process"],
+    "question": "How does the bail process work?",
+    "answer": "Types of bail: 1) Regular Bail — filed in Sessions Court or High Court after arrest. 2) Anticipatory Bail — filed before arrest under Section 438 CrPC. 3) Interim Bail — temporary bail granted pending hearing. Process: File bail application → Court issues notice to prosecution → Hearing → Court grants/denies bail with conditions. For bailable offences, bail is a right. For non-bailable offences, it is at the court's discretion."
+  },
+  {
+    "id": 11,
+    "intent": "faq",
+    "keywords": ["consumer complaint", "consumer court", "consumer forum", "product complaint", "service complaint"],
+    "question": "How do I file a consumer complaint?",
+    "answer": "File consumer complaints at: 1) District Consumer Forum — claims up to ₹50 lakh. 2) State Consumer Commission — ₹50 lakh to ₹2 crore. 3) National Consumer Commission — above ₹2 crore. Online: consumerhelpline.gov.in or call 1800-11-4000 (toll-free). Required: Purchase receipt, complaint details, correspondence with company. Filing fee: ₹200 for claims up to ₹5 lakh."
+  },
+  {
+    "id": 12,
+    "intent": "court_info",
+    "keywords": ["high court", "supreme court", "district court", "which court", "court jurisdiction"],
+    "question": "Which court should I approach for my case?",
+    "answer": "Court hierarchy: 1) District/Sessions Court — first point for most civil and criminal cases. 2) High Court — appeals from District Court, writ petitions. 3) Supreme Court — final appeals, constitutional matters. For family disputes: Family Court. For labor disputes: Labour Court/Industrial Tribunal. For tax matters: Tax Tribunal. For property below ₹3 crore: District Court. Always consult a lawyer to determine correct jurisdiction."
+  },
+  {
+    "id": 13,
+    "intent": "faq",
+    "keywords": ["rti", "right to information", "rti application", "government information", "file rti"],
+    "question": "How do I file an RTI application?",
+    "answer": "RTI Application process: 1) Write application to the Public Information Officer (PIO) of the concerned department. 2) Pay ₹10 fee (by postal order/demand draft/cash). Below poverty line applicants: No fee. 3) Response must come within 30 days. 4) Online: rtionline.gov.in for Central Government departments. 5) First appeal to senior officer if unsatisfied. 6) Second appeal to Central/State Information Commission."
+  },
+  {
+    "id": 14,
+    "intent": "faq",
+    "keywords": ["divorce", "divorce process", "separation", "marriage dissolution", "mutual divorce"],
+    "question": "What is the divorce process in India?",
+    "answer": "Divorce types: 1) Mutual Consent Divorce — both parties agree. File joint petition → 6-month cooling period → Final decree. Fastest route. 2) Contested Divorce — one party files on grounds like cruelty, adultery, desertion (2 years), conversion, mental disorder. Filed in Family Court. Average duration: 1-3 years. Hindu: HMA 1955. Muslim: Personal Law. Christian: Divorce Act 1869. Consult a family lawyer for your specific situation."
+  },
+  {
+    "id": 15,
+    "intent": "efiling",
+    "keywords": ["forgot password", "login issue", "cant login", "portal access", "account problem"],
+    "question": "I cannot login to the eFiling portal. What do I do?",
+    "answer": "If you cannot access the eFiling portal: 1) Use 'Forgot Password' — OTP will be sent to registered mobile. 2) If mobile number changed, visit the nearest court filing counter with ID proof to reset. 3) Clear browser cache and try again — use Chrome or Firefox. 4) Helpdesk: 1800-xxx-xxxx (toll-free). 5) Email: support@efiling.gov.in. Operating hours: 9 AM to 6 PM, Monday to Saturday."
+  }
+]

@@ -1,0 +1,32 @@
+case_text,case_type,outcome,confidence_label
+Plaintiff filed for breach of contract with documentary evidence of signed agreement and non-payment proof,civil,win,1
+"Defendant caught with stolen property, eyewitness testimony available, CCTV footage present",criminal,guilty,1
+Divorce petition on grounds of cruelty with medical records and police complaint history,family,granted,1
+Consumer complaint against company with receipts and email proof of defective product,consumer,win,1
+Property dispute with clear title documents and registered deed,civil,win,1
+"FIR filed for assault, medical report available, witnesses present",criminal,guilty,1
+Mutual consent divorce with settlement agreement signed,family,granted,1
+Labor dispute with salary slips and termination letter without cause,labor,win,1
+RTI appeal with proof of no response within 30 days from PIO,rti,win,1
+Bail application for first-time offender in bailable offence with surety,criminal,granted,1
+Contract dispute with only verbal agreement and no witnesses,civil,lose,0
+Criminal case with only one eyewitness who is related to complainant,criminal,acquitted,0
+Divorce petition on vague grounds without specific incidents,family,rejected,0
+Consumer complaint filed after 2-year limitation period,consumer,lose,0
+Property dispute without registered documents,civil,lose,0
+Anticipatory bail for repeat offender in heinous crime,criminal,rejected,0
+Custody battle with history of domestic violence by petitioner,family,rejected,0
+RTI application for classified defence information,rti,rejected,0
+Labour dispute without employment contract documentation,labor,lose,0
+Bail application for accused with flight risk and prior criminal record,criminal,rejected,0
+Cheque bounce case with dishonour memo and notice sent within 30 days,civil,win,1
+Negligence case with expert medical testimony and hospital records,civil,win,1
+Eviction case with proper notice served and lease violation proof,civil,win,1
+Trademark infringement with registered trademark certificate,civil,win,1
+Insurance claim rejection challenged with policy document evidence,consumer,win,1
+Murder case with circumstantial evidence only and no physical proof,criminal,acquitted,0
+Will dispute where will was written but not registered,civil,uncertain,0
+Joint property dispute between siblings with partial documents,civil,uncertain,0
+Cybercrime complaint with screenshots but IP address not traced,criminal,uncertain,0
+Medical negligence case without expert witness,civil,uncertain,0
+],,,
